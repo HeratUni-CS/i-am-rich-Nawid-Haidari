@@ -1,0 +1,38 @@
+  
+import 'package :flutter/material';
+
+ void main(){
+
+    runApp{
+
+        materialApp(
+
+        home :Scaffold(
+
+    backgroundColor:colors.blueGrey,
+
+        appBar:AppBar('I am rich')
+
+           Body:Center(
+
+           child:image(
+
+           image:AssetImage(
+          images/xyz.jpg
+ 
+        ),
+        ),
+        ),
+        ),
+        ),
+        );
+
+    }
+}
+
+another 
+
+uses-material-design:true
+
+assets:
+-image/xyz.jpg
