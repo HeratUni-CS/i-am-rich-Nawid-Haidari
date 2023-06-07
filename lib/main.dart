@@ -7,7 +7,7 @@ void main() {
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
           title:Text('Iam Not Rish'),
-          backgroundColor: Color.BlueGrey[900],
+          backgroundColor: Colors.blueGrey[900],
         ),
           body: const Center(
               child:Image(
